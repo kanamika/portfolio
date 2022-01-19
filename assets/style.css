@@ -1,0 +1,221 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+body {
+    margin: 0;
+}
+
+.navigation{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCDDD;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-right: 750px;
+}
+
+.logo a {
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu a{
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    text-align: center;
+    background-color: #FFCDDD;
+    height: 500px;
+    border-bottom: 1px blueviolet solid;
+}
+
+.name img{
+    height: 100px;
+    width: auto;
+}
+
+.name h1 {
+    margin: 0px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 54px;
+}
+
+.name h3 {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.name .bacteria-a{
+    position: relative;
+    left: 300px ;
+    top: 70px;
+}
+
+.name .bacteria-b{
+    position: relative;
+    right: 360px;
+    top: 80px;
+}
+
+.section-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.about {
+    margin: 0;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+
+
+.about .a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.about .my-profile-image {
+    padding-right: 150px;
+}
+
+.about .bio {
+    width: 50%;
+    line-height: 1.6;
+    text-align: justify;
+}
+.about .bio .about-me {
+    margin: 0;
+    
+}
+
+.my-profile-image img {
+    height: 100px;
+    width: auto;
+}
+
+.skills {
+    text-align: center;
+    /* height: 400px; */
+    background-color: #FFCDDD;
+    border-top: 1px blueviolet solid;
+    border-bottom: 1px blueviolet solid;
+}
+
+
+.skill {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.skill h1 {
+    font-family: 'Merriweather', serif;
+}
+
+.skill .flask {
+    width: 19%;
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.skill .seaweed {
+    width: 19%;
+    float: right;
+    margin-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.skill .microscope {
+    width: 23%;
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.skill p {
+    text-align: justify;
+}
+
+.contacts {
+    text-align: center;
+    border-bottom: 1px blueviolet solid;
+    background-color: aliceblue;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 50px;
+}
+
+.contacts img {
+    height: 50px;
+    width: auto;
+    position: relative;
+    
+}  
+
+.contacts .mail {
+    right: 20px;
+}
+
+.contacts .in {
+    right: 63px;
+}
+
+.contacts .mail-text {
+    position: relative;
+    left: 57px;
+}
+
+.contacts .in-text {
+    position: relative;
+    left: 10px;
+}
+
+.contacts .email {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contacts .b {
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: royalblue;
+    text-align: center;
+}
+
+footer .copyright p{
+    margin: 0;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+}
