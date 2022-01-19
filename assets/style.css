@@ -15,6 +15,10 @@ body {
     font-size: 20px;
 }
 
+.navigation .menu a:hover {
+    border-bottom: 1px blueviolet solid;
+}
+
 a:link {
     text-decoration: none;
     color: black;
@@ -23,7 +27,7 @@ a:link {
 .logo {
     display: flex;
     align-items: center;
-    padding-right: 750px;
+    padding-right: 600px;
 }
 
 .logo a {
